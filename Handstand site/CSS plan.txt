@@ -1,0 +1,10 @@
+Div at the top, div for social media icons, background image in CSS
+
+header
+div with two divs (robert jones) - > ul buttons, each button another div within div, use flexbox for alignment - space between
+
+div for blurb
+
+footer tag for stay in touch section
+
+for boxes create form, form tags, labels, flexbox - space evenly
