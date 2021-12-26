@@ -20,6 +20,16 @@ export const games = [
   },
   {
     id: 3,
+    title: "Mother Russia Bleeds",
+    rating: 74,
+    genre: "Fighting",
+    year: 2016,
+    developer: "Le Cartel",
+    comments:
+      "Streets of Rage on crack set in Soviet Russia. It's as good as it sounds",
+  },
+  {
+    id: 4,
     title: "Goat Simulator",
     rating: 59,
     genre: "Sandbox",
