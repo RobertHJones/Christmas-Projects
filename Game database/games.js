@@ -38,4 +38,13 @@ export const games = [
     comments:
       "Silly. I made a goat go down a slide whilst riding on a bicycle and firing baseballs",
   },
+  {
+    id: 5,
+    title: "Final Fantasy 7",
+    rating: 100,
+    genre: "RPG",
+    year: 1997,
+    developer: "Square Enix",
+    comments: "Best game ever made. Probably",
+  },
 ];

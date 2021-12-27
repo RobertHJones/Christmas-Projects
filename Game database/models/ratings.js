@@ -4,8 +4,9 @@ import { query } from "../db/index.js";
 
 // GET ALL GAMES
 export async function getAllGames() {
+  console.log("test");
   const data = await query(`SELECT * FROM games;`);
-  console.log(data);
+  console.log("games are", data);
   return data.rows;
 }
 // GET GAME BY ID
@@ -19,6 +20,7 @@ export async function getGameByTitle(title) {
     `SELECT * FROM games WHERE title ILIKE '%' || $1 || '%';`, // Percent % matches any sequence of characters
     [title]
   );
+  return data.rows;
 }
 // ADD NEW GAME
 export async function addNewGame(newGame) {
